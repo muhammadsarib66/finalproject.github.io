@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:  sans-serif;
+}
+
+.header {
+    background-color: #33CCC5;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    position: sticky;
+}
+
+.logo {
+    position: relative;
+    left: 100px;
+}
+
+.logo p {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #fff;
+    line-height: 100px;
+    padding-right: 10px;
+    display: inline-block;
+    font-family: 'Open Sans';
+}
+
+.logopic {
+    display: inline;
+    /* padding-top: 0px; */
+}
+
+.nav {
+    /* border: 1px solid red; */
+    width: 54%;
+    position: absolute;
+    line-height: 100px;
+    right: 20px;
+    font-family: sans-serif;
+}
+
+.nav a {
+    color: white;
+    /* font-weight: 100px; */
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.btn {
+    /* border: 1px solid blue; */
+    border-radius: 30px;
+    margin-left: 40px;
+    box-shadow: 1px 2px 1px white;
+}
+
+a.btn {
+    padding: 10px 25px 10px 25px;
+    word-spacing: 4px;
+    font-weight: 200;
+    background-color: rgb(106, 100, 194);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(235, 17, 35, 0.534);
+}
+
+a:active {
+    padding: 10px 25px 10px 25px;
+    /* border: 1px solid; */
+    border-radius: 30px;
+    background: rgb(63, 63, 145);
+    color: seashell;
+}
+
+
+/* header khtam hu yha */
+
+.right img {
+    
+    display: inline-block;
+    
+}
+
+.main,
+.left,
+.right {
+    display: inline-block;
+}
+
+
+.right {
+    float: right;
+    /* margin-left: 135px; */
+    position: absolute;
+    left: 23.5%;
+    /* z-index: 2; */
+}
+
+.bannerright {
+    position: absolute;
+    right: 118px;
+    TOP: 130px;
+}
+
+
+
+.table tr td {
+    padding-left: 48px;
+    font-family:    sans-serif;
+}
+.table{
+ 
+   position: absolute;
+   top: 295px;
+   left: 100px;
+   padding: 20px;
+   
+}
+.table tr td{
+    margin: 10px auto;
+} 
+.tab{
+    font-size: 15px;
+    color: rgb(80, 78, 78);
+    padding-bottom: 9px;
+}
+.tab2{
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    font-size: 21px;
+    padding-bottom: 30px;
+  
+}
+
+.fonttext{
+    font-family: 'Open Sans';
+    position: absolute;
+    top: 433px;
+    left: 150px;
+    font-size: 60px;
+    background: -webkit-linear-gradient(left, rgb(242 151 39) , #FE5668); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.newbutton a{
+    text-decoration: none;
+}
+.newbutton {
+    /* border: 1px solid red; */
+    text-decoration: none;
+    background: #33CCC5;
+    border-radius: 30px;
+    margin-left: 40px;
+    box-shadow: 1px 2px 1px rgb(15, 82, 228);
+    padding: 10px 25px 10px 25px;
+
+    color: white;
+
+
+}
+.nbt{
+    position: absolute;
+    top: 640px;
+    left: 130px;
+}
+/* next page shuru features ka */
+
+

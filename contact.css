@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:  sans-serif;
+}
+
+.header {
+    background-color: #33CCC5;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    position: sticky;
+}
+
+.logo {
+    position: relative;
+    left: 100px;
+}
+
+.logo p {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #fff;
+    line-height: 100px;
+    padding-right: 10px;
+    display: inline-block;
+    font-family: 'Open Sans';
+}
+
+.logopic {
+    display: inline;
+    /* padding-top: 0px; */
+}
+
+.nav {
+    /* border: 1px solid red; */
+    width: 54%;
+    position: absolute;
+    line-height: 100px;
+    right: 20px;
+    font-family: sans-serif;
+}
+
+.nav a {
+    color: white;
+    /* font-weight: 100px; */
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.btn {
+    /* border: 1px solid blue; */
+    border-radius: 30px;
+    margin-left: 40px;
+    box-shadow: 1px 2px 1px white;
+}
+
+a.btn {
+    padding: 10px 25px 10px 25px;
+    word-spacing: 4px;
+    font-weight: 200;
+    background-color: rgb(106, 100, 194);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(235, 17, 35, 0.534);
+}
+
+a:active {
+    padding: 10px 25px 10px 25px;
+    /* border: 1px solid; */
+    border-radius: 30px;
+    background: rgb(63, 63, 145);
+    color: seashell;
+}
+
+/* contact page? */
+
+.last1{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form{ 
+    width: 84%;
+    height: 600px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: white;
+    border-radius: 60px;
+    
+}
+.contact0{
+     
+   display: inline-block;
+   position: relative;
+   left: 32%;
+   top: 41px;
+}
+
+
+.contact{
+    display: block;
+    text-align: center;
+    color: skyblue;
+    
+    
+}
+
+.contact1{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+ 
+}
+.table {
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+input{
+    text-align: center;
+    font-family: 'open-sans';
+width: 300px;
+font-size: 20px;
+outline: none;
+/* border: none; */
+/* border-radius: 1px solid red; */
+border-radius: 20px;
+border-color: blue;
+
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+ padding-right:20px ;
+
+margin-left: 15px;
+margin-top: 10px;
+}
+input:hover{
+border-color: blueviolet;
+background-color: cornflowerblue;
+color: white;
+box-sizing: border-box;
+box-shadow: 5px 5px 2px rgb(101, 219, 164);
+}
+.table1 {
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+    .input{
+    text-align: center;
+    font-family: 'open-sans';
+width: 650px;
+font-size: 20px;
+outline: none;
+/* border: none; */
+/* border-radius: 2px solid red; */
+border-radius: 30px;
+border-color: blue;
+
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 30px;
+ padding-right:30px ;
+    }
+   
+        .BTNN{
+
+            padding: 10px 20px;
+            background-color: rgb(32, 211, 235);
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 10px;
+            outline: none;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-left: 45%;
+        }
+        button:hover{
+            box-shadow: 0px 0px 3px 3px rgba(236, 24, 24, 0.822);
+            transition: background 2s linear;
+            border-radius: 5px;
+            background-color: rgb(10, 219, 122);
+            color: rgb(10, 13, 153);
+            border: 1px solid;
+        }

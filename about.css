@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:  sans-serif;
+}
+
+.header {
+    background-color: #33CCC5;
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    position: sticky;
+}
+
+.logo {
+    position: relative;
+    left: 100px;
+}
+
+.logo p {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: #fff;
+    line-height: 100px;
+    padding-right: 10px;
+    display: inline-block;
+    font-family: 'Open Sans';
+}
+
+.logopic {
+    display: inline;
+    /* padding-top: 0px; */
+}
+
+.nav {
+    /* border: 1px solid red; */
+    width: 54%;
+    position: absolute;
+    line-height: 100px;
+    right: 20px;
+    font-family: sans-serif;
+}
+
+.nav a {
+    color: white;
+
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.btn {
+    /* border: 1px solid blue; */
+    border-radius: 30px;
+    margin-left: 40px;
+    box-shadow: 1px 2px 1px white;
+}
+
+a.btn {
+    padding: 10px 25px 10px 25px;
+    word-spacing: 4px;
+    font-weight: 200;
+    background-color: rgb(106, 100, 194);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgba(235, 17, 35, 0.534);
+}
+
+a:active {
+    padding: 10px 25px 10px 25px;
+    /* border: 1px solid; */
+    border-radius: 30px;
+    background: rgb(63, 63, 145);
+    color: seashell;
+}
+
+/* bout k oage */
+
+
+.imag{
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 70px;
+    
+}
+
+.text{
+    display: inline-block;
+    position: absolute;
+    top: 231px;
+    left: 697px;
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 380px;
+}
+.zero{
+    color: #33CCC5;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 0px 55px;
+}
+.zero2{
+  
+    font-size: 30px;
+    font-weight: bold;
+    
+    margin: 5px 70px;
+    word-spacing: 2px;
+    color: rgb(73, 73, 73);
+
+}
+.table {
+    
+ 
+
+}
+
+.tab{
+    font-size: 36px;
+    color: #088EC3;
+    font-weight: 900;
+    font-family: 'open-sans';
+    padding-top: 20px;
+    padding-left:70px ;
+    
+}
+.tab1{
+    padding-left:70px ;   
+    font-weight: bolder;
+    color: rgb(66, 66, 66);
+}
+.zero3{
+  
+    font-size: 14px;
+    /* font-weight: ; */
+    padding-top: 10px;
+    margin: 5px 70px;
+    word-spacing: 2px;
+    color: rgb(24, 23, 23);
+
+}
+.lasthope {
+/* border: 1px solid red; */
+position: relative;
+top: 40px;
+margin-left: 70px;
+padding: 20px;
+background-color: #088EC3;
+color: white;
+border-radius: 40px;
+font-size: 14px;
+
+
+}
+ .lasthope, a{
+    text-decoration: none;
+    
+    
+}
+
+.lasthope:hover{
+
+color: whitesmoke;
+background-color: rgba(62, 77, 163, 0.719);
+text-decoration: none;
+box-shadow: 5px 5px 6px rgb(26, 26, 112);
+
+
+
+}
